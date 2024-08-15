@@ -1,2 +1,2 @@
-# A simple online store to my aunt.
+# A simple online store
 ## Still under development
