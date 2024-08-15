@@ -1,0 +1,160 @@
+body,html{
+	overflow: auto;
+	background-color: #f8f8f8;
+	height: 100%;
+}
+
+header{
+	padding: 14px;
+}
+
+header span, header a{
+	font-size: 16px;
+}
+
+.text-header{
+	text-transform: uppercase;
+}
+
+.header-buttons{
+	text-align: right;
+}
+
+.header-buttons a{
+	margin-right: 14px;
+}
+
+/* main */
+
+main{
+	position: relative;
+	width: 100%;
+	min-height: 100%;
+}
+
+.upage-arrow{
+	position: fixed;
+	cursor: pointer;
+	display: none;
+	width: 40px;
+	height: 40px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	right: 30px;
+	bottom: 30px;
+	font-size: 20px;
+	border: 0;
+	z-index: 999;
+}
+
+.upage-arrow i{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* aside */
+
+aside{
+	position: relative;
+	overflow: auto;
+	width: 230px;
+	min-height: 100%;
+}
+
+main > i.btn-menu{
+	display: none;
+}
+
+aside i.btn-menu, main > i.btn-menu{
+	position: absolute;
+	cursor: pointer;
+	background-color: #f8f8f8;
+	right: 0;
+	font-size: 20px;
+	padding-top: 8px;
+	padding-left: 14px;
+	padding-right: 7px;
+	padding-bottom: 8px;
+	border-bottom-left-radius: 8px;
+}
+
+aside .logo{
+	text-align: center;
+	padding-top: 50px;
+	width: 100%;
+}
+
+.logo img{
+	max-width: 60%;
+}
+
+aside .menu{
+	width: 100%;
+	padding-top: 20px;
+	padding-left: 15px;
+}
+
+aside .menu div{
+	padding: 8px 0 8px 15px;
+}
+
+aside .menu div i{
+	padding: 8px;
+}
+
+aside .menu a{
+	display: inline-block;
+	text-transform: uppercase;
+	color: #54646b;
+	font-size: 14px;
+}
+
+/* content */
+
+.content{
+	width: calc(100% - 230px);
+	min-height: 100%;
+	padding: 8px 2%;
+	flex: 1;
+}
+
+/* media screen */
+
+@media screen and (max-width: 473px){
+	.text-header{
+		display: none;
+	}
+
+	.text-header,.header-buttons{
+		text-align: center;
+		width: 100%;
+	}
+
+}
+
+@media screen  and (max-width: 415px){
+	.menu i{
+		font-size: 12px;
+		padding: 0;
+	}
+
+	aside{
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		z-index: 9;
+	}
+
+	main > i.btn-menu{
+		display: inline-block;
+		position: absolute;
+		width: 40px;
+		left: 0;
+		border-radius: 0px;
+	}
+
+}

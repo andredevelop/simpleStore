@@ -1,0 +1,27 @@
+/* customer list */
+
+.opposite-tab-wrap{
+	padding: 20px 20px;
+	margin-top: 28.12px;
+	margin-bottom: 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.opposite-tab-wrap h3{
+	position: relative;
+	width: 100%;
+}
+
+/* for tab */
+
+.cell{
+	width: calc(100% / 8);
+}
+
+@media screen and (max-width: 268px){
+	.opposite-tab-wrap h3{
+		height: 40px;
+	}
+}

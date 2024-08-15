@@ -1,0 +1,204 @@
+-Fazer estilo padrão ✔
+-Começar pagina de login{
+	criado algumas divs ✔
+	criado div login ✔
+	criar div cadastro ✔
+    trocar de cor ao selecionar input ✔
+    responsivo ✔
+    finalizado o frontend ✔
+    fiz sumir os inputs ✔
+    fazer checkbox para lembrar senha ✔
+    agora sim, fim ✔
+}
+-Criada tabela user no dtb ✔
+-Criada classe User para coisas especificas ✔
+-Fazar sistema de cadastro{
+	nivel de permissão é cadastrado como 1 ✔
+	já pode cadastrar ✔
+	fazer validação de vazios na classe User ✔
+	modificar para usar ajax ✔
+	conferir se e-mail já existe ✔
+	cadastro funcionando ✔
+}
+-Fazar sistema de login{
+	fazer com classe User ✔
+	já pode logar com ou sem cookie ✔
+	criar classe de loggout no User ✔
+	criar classe padrão para aviso ✔
+	avisos já aplicados ao login ✔
+}
+-Agora se a senha for menor 8 aparece aviso ✔
+-Ao registrar deixa espaço para cpf/cnpj na db, editar pos login✔ 
+-Mudei o que aparece no header e o tamanho das fontes ✔
+-Criei funções nova de verificar permissão ✔
+-Agora a url fica com home se estiver vazia ✔
+-Mudei o tamanho da fonte dos links no header ✔
+-Fiz ajustes no responsivo do cabeçalho ✔
+-Fazer a home{
+	-cabeçalho com logo, nome, btn de sair, btn home ✔
+	-dar uma olhada no video do curso para ver os cards ✔
+	-fazer aside com menus ✔
+	-menus de aside e header ja tem estilos quando selecionados ✔
+}
+-Criada classe Spawn para funções de aparecer ✔
+-Funções de aparecer estilo e página cridas na classe Spawn ✔
+-Criada função de spawnar link com diretorio e nome do arquivo ✔
+-Alterado estilo de menu aside selecionados ✔
+-Adicionado icones e divs aos menus da aside ✔
+-Fazer os icones serem links tbm ✔
+-Fazer o animção da Aside{
+	-fazer o botão de retrair e abrir aside ✔
+	-criado arquivo js só para aside ✔
+	-local storage para guardar status da aside✔
+}
+-O aviso htmlWarn agora tem contanier na tag ✔
+-Foram feitas algumas alterações em estilos ✔
+-Spawn link agora verifica a url para o estilo ✔
+-Criei uma classe para display flex ✔
+-Função para url vazia ser escrita login/home ✔
+-Função para validar se existe arquivo ✔
+-Alterei algumas coisas na $pageName da class Spawn ✔
+-Fazer a main{
+	-comerçar os cards ✔
+	-fazer o view das tarefas do dias ✔
+	-fazer agora a versão mobile dos cards da home ✔
+	-fazer setinha para clicar e subir ✔
+}
+-Feita tabelas de clientes/processos/taregas/audiencias ✔
+-Feito menu para audiencias ✔
+-Main ja puxa valores dos cards principais e tarefas ✔ 
+-Tarefas agora puxa nome adv/data/hora ✔
+-Criada class Crud para metodos de crud ✔
+-O body/html/main agora estão com overflow:hidden, alterar se necessário ✔
+-Ao cadastrar agora tbm vai imagem so que em branco ✔
+-Fiz alguns ajustes na sidebar e btn-menu com tela menor ✔
+-Fiz ajustes no botao de add cliente na tela menor ✔
+-Página clientes{
+	-fazer a tabela ✔
+	-editar os botoes e barra de busca ✔
+	-tabela ajustando ao mobile com scroll ✔
+	-fazer tela adicionar clientes ✔
+	-editar span e validar inpurt ao inserir ✔
+	-fazer o efeito de botão abrir a tela para adicionar clientes ✔
+	-fazer teste para ver se da pra editar inline (da, mas não farei) ✔ 
+	-fazer lista de clientes ✔
+	-fazer tela editar clientes ✔
+	-fazer o efeito de botão abrir a tela para edita clientes ✔
+	-fazer excluir clientes ✔
+	-fazer pesquisa e retorno dos clientes ✔
+	-retornar clientes keyup na .js de excluir após criar pesquisa ✔
+	-ta puxando count de itens ✔
+	-os ids selecionados limpam quando pesquisa ✔
+	-fazer inserir clientes ✔
+	-validar para nao permitir dados em branco ✔
+	-fazer btnSignup desativar durante o evento inserir ✔
+	-fazer editar cliente ✔
+	-retornar com keyup para todos ✔
+}
+-Feita modificação na validação dos formulários ✔
+-Criada função na class Spawn para reduzir linhas na home com links/scripts ✔
+-Agora o botao de editar é link para nao selecionar linha junto ✔
+-Agora o icone do editar é do mesmo tamanho das letras ✔
+-Mudei as cores da notificação ✔
+-Adicionar user_name nas tabelas para saber de quem sao os dados ✔
+-Criada constante username que guarda o session email ✔
+-Tarefaz agora puxa por usuário ✔
+-Cliente agora puxa por usuário ✔
+-Processos e aduiencias puxam por usuário tbm ✔
+-Ordem das tarefas e lista vem  ORDER BY id DESC (ultimo primeiro) ✔
+-Agora ao sair do form apaga tudo mas da trigger no select para mudar input ✔
+-Corrigir alguns bugs na selecao de edicao, agora ids sao limpos ✔
+-Ao entrar no form edit seleciona apenas a row do btn clicado ✔
+-Ao sair do form de edicao DESeleciona a row ✔
+-Ao selecionar linha e depois dar keyup os ids sao limpos ✔
+-Separei os css em pastas como os js ✔
+-Feita alteração nos codigos js para ficar mais arrumado com funções ✔
+-Criei um botao de limpar o form sem precisar fechar ele ✔
+-Essa arrumação bugou algumas coisas de seleção, mantive só algumas alterações ✔
+-Mudei as funções de abrir e validar os mularios por conflito com ajax ✔
+-Agora as senhas sao criptografadas ✔
+-Corrigi bugs no registrar user ✔
+-Agora não há redirect e alert com js no login ✔
+-Adicionei loaging e aviso html nologin ✔
+-Alterei o autoload e agora so preciso dar include no config.php ✔
+-Aplicado ajuste nas funcoes do crud verifica se é array ou nao os binds ✔
+-Retorna tarefas agora na home por datas ✔
+-Alterei o arquivo de abrir formEdit{
+	agora tem que fazer coisas manuais no arquivo de cada pagina✔
+}
+-Fazer página de processos{
+	-fazer toda a tela com tbela e tudo ✔
+	-retornas todos os dados adequados ✔
+	-fazer o form de adicionar processos ✔
+	-fazer buscar processos ✔
+	-fazer inserir processos ✔
+	-fazer excluir processos ✔
+	-fazer editar processos ✔
+}
+-Criei uma função para excluir com post na classe Crud ✔
+-Fazer página de audiencias{
+	-fazer toda a tela com tbela e tudo ✔
+	-retornas todos os dados adequados ✔
+	-fazer o form de adicionar audiencias ✔
+	-fazer buscar audiencias ✔
+	-fazer inserir audiencias ✔
+	-fazer excluir audiencias ✔
+	-fazer editar audiencias ✔
+	-ao inserir, crie uma tarefa ✔
+	-ao editar, edite a tarefa ✔
+	-ao excluir, excluir tarefa ✔
+}
+-Fazer página da parte contrária{
+	-criada a tabela ✔
+	-criar página ✔
+	-fazer toda a tela com tbela e tudo ✔
+	-retornas todos os dados adequados ✔
+	-fazer o form de adicionar parte contraria ✔
+	-fazer buscar parte contrária ✔
+	-fazer inserir parte contrária ✔
+	-fazer excluir parte contrária ✔
+	-fazer editar parte contrária ✔
+}
+-Fazer agenda{
+	-ja adaptei o estilo ✔
+	-fazer excluir ✔	
+	-fazer inserir e retornar sino ✔
+	-fazer o php ajax ✔
+	-ta completo ✔
+}
+
+-Fazer configurações usuário{
+	-criar página (design) ✔
+	-criar arquivo editUser no jsAjax (ja no Spawn) ✔
+	-criar arquivo editUser no ajax (php) ✔
+	-criei classes no Check e Crud ✔
+	-fazer a classe de update de user ✔
+	-update de dados e logo ✔
+	-na parte de update USER add doc e img ✔
+	-dar update de user_name nas tabelas ✔
+	-criar método no crud para editar o user_name ✔
+	-concluído ✔
+}
+
+-Em login alterar a permissao de cadastro para 2 ✔
+
+-Configurar área do cliente{
+	-cliente vai ter apenas a home para ver suas tarefas ⏰
+	-cliente não pode editar, excluir ou fazer qualquer coisa além de ver ⏰
+	-deve poder ver o que está ligado a ele ⏰
+	-usar o documento para puxar os dados de acordo ⏰
+	-implementar sistema de chat na home ⏰
+}
+
+-configurações{
+	**standby**
+}
+
+-Modifiquei a verificação de logo na página home ✔
+-Agora a tabela de hearding tbm tem advogado ✔
+-Modifiquei alguma coisas na validação dos forms para incluir o form de usuario ✔
+
+
+
+{O advogado quem vai cadastrar seus clientes
+para que eles possam ter acesso aos seu casos}
