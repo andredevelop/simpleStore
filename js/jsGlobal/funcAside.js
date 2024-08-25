@@ -60,7 +60,7 @@ $(function(){
 		logo.show();
 		menuLink.show();
 		divMenu.css({
-			'padding-top': '20px',
+			'padding-top': '60px',
 			'padding-left': '15px'
 		});
 		aside.animate({'width':'230px'},0);

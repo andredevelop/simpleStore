@@ -14,6 +14,11 @@ header span, header a{
 
 .text-header{
 	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.text-header a{
+	font-size: 20px;
 }
 
 .header-buttons{
@@ -61,7 +66,7 @@ aside{
 	position: relative;
 	overflow: auto;
 	width: 230px;
-	min-height: 100%;
+	min-height: 100vh;
 }
 
 main > i.btn-menu{
@@ -81,19 +86,9 @@ aside i.btn-menu, main > i.btn-menu{
 	border-bottom-left-radius: 8px;
 }
 
-aside .logo{
-	text-align: center;
-	padding-top: 50px;
-	width: 100%;
-}
-
-.logo img{
-	max-width: 60%;
-}
-
 aside .menu{
 	width: 100%;
-	padding-top: 20px;
+	padding-top: 60px;
 	padding-left: 15px;
 }
 

@@ -35,25 +35,55 @@
 	<base base="<?php echo INCLUDE_PATH ?>" /><!-- base -->
 	<div class="loading"><img src="images/load3.gif"></div><!-- loading -->
 
-	<header class="bgBlue textWhite">
+	<header class="bgYellow bg222">
 		<div class="container dspFlexWrap">
 			<div class="text-header w50">
-				<span>Bem-vindo(a)!</span>
+				<a class="text222" href="home">Sylph</a>
 			</div><!-- text-header -->
 
 			<div class="header-buttons w50">
-				<a class="textF8" href="">Login</a>
-				<a class="textF8" href="">Cadastre-se</a>
+				<a class="text222" href="">Login</a>
+				<a class="text222" href="">Cadastre-se</a>
 			</div><!-- header-buttons -->
 		</div><!-- container -->
 	</header>
 
 	<main>
+		<i class="fa-solid fa-bars btn-menu text222"></i>
+
+		<aside class="bgWhite">
+			<i class="fa-solid fa-bars btn-menu text222"></i>
+
+			<div class="menu">
+				<div class="<?php Spawn::selectMenuSide('clientes'); ?>">
+					<a data-id="ico" href="clientes"><i class="fa-solid fa-user"></i></a>
+					<a data-id="link" href="clientes">Clientes</a>
+				</div>
+				<div class="<?php Spawn::selectMenuSide('processos'); ?>">
+					<a data-id="ico" href="processos"><i class="fa-solid fa-folder"></i></a>
+					<a data-id="link" href="processos">Processos</a>
+				</div>
+				<div class="<?php Spawn::selectMenuSide('audiencias'); ?>">
+					<a data-id="ico" href="audiencias"><i class="fa-solid fa-folder"></i></a>
+					<a data-id="link" href="audiencias">Audiencias</a>
+				</div>
+				<div class="<?php Spawn::selectMenuSide('parte-contraria'); ?>">
+					<a data-id="ico" href="parte-contraria"><i class="fa-solid fa-gavel"></i></a>
+					<a data-id="link" href="parte-contraria">Parte contrária</a>
+				</div>
+				<div class="<?php Spawn::selectMenuSide('agenda'); ?>">
+					<a data-id="ico" href="agenda"><i class="fa-regular fa-calendar-days"></i></a>
+					<a data-id="link" href="agenda">Agenda</a>
+				</div>
+				
+			</div><!-- menu -->
+		</aside>
+
 		<div class="content">
 			<?php Spawn::spawnPage(); ?>
 		</div><!-- content -->
 
-		<div class="upage-arrow bgLightGray textWhite">
+		<div class="upage-arrow bg222 textWhite">
 			<i class="fa-regular fa-up"></i>
 		</div><!-- upage-arrow -->
 	</main>

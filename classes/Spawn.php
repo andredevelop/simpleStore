@@ -72,6 +72,7 @@
 			self::spawnLinkFile('all','js/jsLibs','jquery.mask.js');
 			self::spawnLinkFile('all','js/jsLibs','fontAwesome.js');
 			self::spawnLinkFile('all','js/jsGlobal','funcMask.js');
+			self::spawnLinkFile('all','js/jsGlobal','funcAside.js');
 			self::spawnLinkFile('all','js/jsGlobal','arrowToUp.js');
 			self::spawnLinkFile('all','js/jsGlobal','const.js');
 			self::spawnLinkFile('all','js/jsGlobal','funcFormValidate.js');

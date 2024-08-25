@@ -21,7 +21,7 @@
 	spl_autoload_register($autoload);
 
 	
-	define('INCLUDE_PATH', 'http://localhost/0%20-%20Desenvolvendo/loja_marlene/');
+	define('INCLUDE_PATH', 'http://localhost/0%20-%20Desenvolvendo/simpleStore/');
 	define('INCLUDE_PATH_PAINEL',INCLUDE_PATH.'central/');
 	define('BASE_DIR_PAINEL',__DIR__);
 	define('NOME_EMPRESA','DuartCode');
